@@ -16,69 +16,103 @@ body {
 }
 
 .container {
-    width: 100%;
+    width: 1024px;
 }
 
 h1 {
-    font-size: 330%;
-	font-weight: 500;
-	letter-spacing: 1.6px;
+    font-family: sans serif;
+    font-size: 48px;
+    font-weight: light;
+
 }
 
 .header {
     color: #666;
-    margin: 2.8% 0 0 0;
+    margin: 25px 0 0 0;
+
 }
 
 .left-column {
-     margin: 2% 0 0 0;
+     margin: 20px 0 0 0;
  }
 
 .logo {
-    width: 94.5%;
-    margin: 0 0 0 7%;
+    width: 375px;
+    margin: 0 0 0 26px;
 }
 
 
 h2 {
-    font-size: 170%;
-	font-weight: 600;
+    font-size: 24px;
+    font-weight: 600;
     color: #F07C17;
 }
 
 .subtitle {
-    padding: 0 0 0 2%;
-    margin: 0 0 1.9% 0;
+    padding: 0 0 0 20px;
+    margin: 1px 0 20px 0;
 }
 
 .text {
-    padding: 0 2.5% 0 0;
-}
-
-p {
-    line-height: 230%;
-    font-size: 100%;
-    padding: 0 0 0 1.5%;
+    width: 579px;
+    padding: 1px 25px 0 20px;
+    font-size: 14px;
+    word-spacing: 1.9px;
+    line-height: 32px;
+    color: #BBBABA;
 
 }
 
 .box-features {
-    width: 94.5%;
-    margin: 7.5% 0 0 7%;
-    padding: 2% 0 0 0;
+    width: 375px;
+    margin: 28px 0 0 25px;
+    padding: 10px 0 0px 15px;
     border: 1px solid #CCCCCC !important;
 }
 
-.features {
-    font-size: 160%;
+
+.features{
+    margin: 20px 0 27px 15px;
+    font-size: 26px;
     font-weight: bold;
-    padding: 0 0 0 4.5%;
+    word-spacing: 5px;
+}
+
+li {
+
+    font-size: 16px;
+    line-height: 32px;
+    margin: 0 0 0 16px;
+    color: #BBBABA;
 }
 
 ul {
     list-style-type:disc;
-    font-size: 120%;
-    line-height: 200%;
-    padding: 6.5% 0 8% 16%;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 0 0 41px 0;
 }
+
+
+
+
+.mockup-overlay {
+       top: 0;
+       position: absolute;
+       z-index: -1;
+       opacity: 0.4;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
